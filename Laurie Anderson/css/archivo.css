@@ -1,0 +1,108 @@
+/* general */
+body {
+    background-image: url(../img/fondo.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+}
+
+/* Tipografia*/
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+h1, h2 {
+    font-family: "Abel", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+span {
+    font-weight: 600;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border: 2px solid #000;
+    background-color: #eee;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+nav a:link {
+    background-color: #eee;
+}
+
+nav a:visited {
+    color: #666;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+}
+
+nav a:active {
+    background-color: #000;
+}
+
+/* Contenido */
+main ul li {
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding: 0.5rem 0;
+}
+
+/* video e imagenes */
+iframe {
+    width: 100%;
+    height: 25rem;
+    display: block;
+    margin: 2rem auto;
+    border: none;
+}
+
+img{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #333;
+    display: block;
+    margin: 2rem auto;
+    padding: 0,5rem;
+}
+
+/* Pie de pagína */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ccc;
+}
+
